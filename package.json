@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/EbukaNweje/Klassisch-Football-Academy/issues"
   },
-  "homepage": "https://github.com/EbukaNweje/Klassisch-Football-Academy#readme"
+  "homepage": "https://github.com/EbukaNweje/Klassisch-Football-Academy#readme",
+  "devDependencies": {
+    "hint": "^7.1.0"
+  }
 }

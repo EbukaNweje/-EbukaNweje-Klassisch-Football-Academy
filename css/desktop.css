@@ -109,7 +109,7 @@ header > ul > li > a:hover {
   padding: 30px;
 }
 
-.Register {
+.HomeCover1 {
   width: 100px;
   height: 30px;
   display: flex;
@@ -121,16 +121,16 @@ header > ul > li > a:hover {
   margin-top: 100px;
 }
 
-.Register > a {
+.HomeCover1 > a {
   color: white;
 }
 
-.Register2 {
+.HomeCover2 {
   display: flex;
   flex-direction: column;
 }
 
-.Register2 > a {
+.HomeCover2 > a {
   width: 100px;
   height: 60px;
   color: rgb(199, 1, 1);
@@ -139,7 +139,7 @@ header > ul > li > a:hover {
   font-size: 80px;
 }
 
-.Register2 > h2 {
+.HomeCover2 > h2 {
   width: 80%;
   font-size: 55px;
   font-weight: 100;
@@ -151,18 +151,18 @@ header > ul > li > a:hover {
   flex-direction: column;
 }
 
-.Register2 > h2 > span {
+.HomeCover2 > h2 > span {
   width: 100%;
   border-top: solid rgb(199, 1, 1) 2px;
 }
 
-.Register2 > article {
+.HomeCover2 > article {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-.Register2 > article > h3 {
+.HomeCover2 > article > h3 {
   font-size: 16px;
   line-height: 20px;
   font-weight: 100;
