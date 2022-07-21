@@ -1,136 +1,138 @@
-@media (max-width:991px){
-    header {
-      position: fixed;
-    }
+@media (max-width: 991px) {
+  header {
+    position: fixed;
+  }
 
-    header > ul {
-      width: 100%;
-      height: 88vh;
-      display: none;
-      /* justify-content: center; */
-      flex-direction: column;
-      position: absolute;
-      top: 0;
-      background: rgb(199, 1, 1);
-      margin-top: 75px;
-      padding: 0;
-    }
+  header > ul {
+    width: 100%;
+    height: 88vh;
+    display: none;
 
-    header > ul > li {
-      height: 15%;
-      width: 100%;
-      margin-left: 0;
-      display: flex;
-      justify-content: flex-start;
-      align-items: center;
-      padding: 30px;
-    }
+    /* justify-content: center; */
+    flex-direction: column;
+    position: absolute;
+    top: 0;
+    background: rgb(199, 1, 1);
+    margin-top: 75px;
+    padding: 0;
+  }
 
-    header > ul > li > a {
-      font-size: 20px;
-      font-weight: 1000;
-    }
+  header > ul > li {
+    height: 15%;
+    width: 100%;
+    margin-left: 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 30px;
+  }
 
-    .MenuBar {
-      display: flex;
-    }
-    
-    .fa-bars {
-      display: flex;
-      margin-right: 30px;
-      font-size: 50px;
-      color: white;
-      cursor: pointer;
-    }
+  header > ul > li > a {
+    font-size: 20px;
+    font-weight: 1000;
+  }
 
-    .fa-times {
-      display: none;
-      margin-right: 30px;
-      font-size: 50px;
-      color: white;
-      cursor: pointer;
-    }
+  .MenuBar {
+    display: flex;
+  }
 
-    .Register2 > h2 {
-      font-size: 30px;
-      line-height: 35px;
-    }
+  .fa-bars {
+    display: flex;
+    margin-right: 30px;
+    font-size: 50px;
+    color: white;
+    cursor: pointer;
+  }
 
-    .NewsPage {
-      width: 100%;
-      height: 1050px;
-      display: flex;
-      align-items: center;
-      justify-content: flex-start;
-    }
+  .fa-times {
+    display: none;
+    margin-right: 30px;
+    font-size: 50px;
+    color: white;
+    cursor: pointer;
+  }
 
-    .News1 {
-      height: 400px;
-      width: 100%;
-      margin-bottom: 0px;
-    }
+  .Register2 > h2 {
+    font-size: 30px;
+    line-height: 35px;
+  }
 
-    .News1Card {
-      height: 300px;
-      width: 45%;
-      margin-bottom: 10px;
-      display: flex;
-      flex-direction: column;
-    }
+  .NewsPage {
+    width: 100%;
+    height: 1050px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
 
-    .Cardphoto {
-      width: 100%;
-      height: 50%;
-    }
+  .News1 {
+    height: 400px;
+    width: 100%;
+    margin-bottom: 0;
+  }
 
-    .Cardtext {
-      width: 100%;
-      height: 50%;
-    }
+  .News1Card {
+    height: 300px;
+    width: 45%;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+  }
 
-    .News2 {
-      height: 700px;
-      width: 100%;
-      flex-wrap: wrap;
-      /* background-color: red; */
-    }
+  .Cardphoto {
+    width: 100%;
+    height: 50%;
+  }
 
-    .News2Card {
-      width: 45%;
-      height: 300px;
-      margin-bottom: 30px;
-      margin-top: 15px;
-    }
+  .Cardtext {
+    width: 100%;
+    height: 50%;
+  }
 
-    .gallary > article {
-      width: 100%;
-    }
+  .News2 {
+    height: 700px;
+    width: 100%;
+    flex-wrap: wrap;
 
-    .footertop1 {
-      width: 50%;
-      height: 50%;
-    }
+    /* background-color: red; */
+  }
 
-    .footertop > article {
-      width: 100%;
-      height: 100%;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-    }
+  .News2Card {
+    width: 45%;
+    height: 300px;
+    margin-bottom: 30px;
+    margin-top: 15px;
+  }
 
-    .footcircle {
-      height: 40px;
-      width: 40px;
-    }
+  .gallary > article {
+    width: 100%;
+  }
 
-    .footertop2 {
-      height: 50%;
-      width: 100%;
-      padding: 10px;
-    }
+  .footertop1 {
+    width: 50%;
+    height: 50%;
+  }
 
-    .footertop2 button {
-      width: 20%;
-    }
+  .footertop > article {
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .footcircle {
+    height: 40px;
+    width: 40px;
+  }
+
+  .footertop2 {
+    height: 50%;
+    width: 100%;
+    padding: 10px;
+  }
+
+  .footertop2 button {
+    width: 20%;
+  }
 }

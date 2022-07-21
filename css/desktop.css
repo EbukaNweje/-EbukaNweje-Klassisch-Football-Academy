@@ -99,8 +99,8 @@ header > ul > li > a:hover {
 .HomePageCover {
   height: 95vh;
   width: 100%;
-  background: rgb(255,255,255);
-  background: radial-gradient(circle, rgba(255,255,255,0) 0%, rgb(0, 0, 0) 99%, rgba(0,0,0,1) 100%);
+  background: rgb(255, 255, 255);
+  background: radial-gradient(circle, rgba(255, 255, 255, 0) 0%, rgb(0, 0, 0) 99%, rgba(0, 0, 0, 1) 100%);
   position: relative;
   top: 0;
   display: flex;
@@ -142,10 +142,10 @@ header > ul > li > a:hover {
 .Register2 > h2 {
   width: 80%;
   font-size: 55px;
-  font-weight: 10000;
+  font-weight: 100;
   line-height: 60px;
   color: white;
-  margin: 20px 0px;
+  margin: 20px 0;
   text-transform: uppercase;
   display: flex;
   flex-direction: column;
@@ -165,7 +165,7 @@ header > ul > li > a:hover {
 .Register2 > article > h3 {
   font-size: 16px;
   line-height: 20px;
-  font-weight: 100px;
+  font-weight: 100;
   color: white;
   border-right: 2px solid white;
   height: 20px;
@@ -181,7 +181,7 @@ header > ul > li > a:hover {
 .NewsPage {
   height: 800px;
   width: 100%;
-  background: #F8F8F8;
+  background: #f2f2f2;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -205,22 +205,20 @@ header > ul > li > a:hover {
   height: 100%;
   background-color: white;
   margin: 0 5px;
-  border-radius: 10px;
-  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.199);
+  border-radius: 5px;
   display: flex;
 }
 
 .News1Card:hover {
   transition: all 750ms;
-  box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.76);
-  -webkit-box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.76);
-  -moz-box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.76);
+  box-shadow: 1px 1px 5px 0 rgba(0, 0, 0, 0.616);
+  -webkit-box-shadow: 1px 1px 5px 0 rgba(0, 0, 0, 0.404);
+  -moz-box-shadow: 1px 1px 5px 0 rgba(0, 0, 0, 0.37);
 }
 
 .Cardphoto {
   width: 50%;
   height: 100%;
-  background-color: aqua;
   background: url(../assets/image/271248954_650254979739236_8127864683998290938_n.jpg);
 }
 
@@ -243,16 +241,14 @@ header > ul > li > a:hover {
   background-color: white;
   margin: 0 5px;
   border-radius: 5px;
-  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.199);
-}
-  
-.News2Card:hover {
-  transition: all 750ms;
-  box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.76);
-  -webkit-box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.76);
-  -moz-box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.76);
 }
 
+.News2Card:hover {
+  transition: all 750ms;
+  box-shadow: 1px 1px 5px 0 rgba(0, 0, 0, 0.616);
+  -webkit-box-shadow: 1px 1px 5px 0 rgba(0, 0, 0, 0.404);
+  -moz-box-shadow: 1px 1px 5px 0 rgba(0, 0, 0, 0.37);
+}
 
 .gallary {
   width: 100%;
@@ -285,8 +281,12 @@ header > ul > li > a:hover {
 }
 
 .fixtureclub {
+  width: 40%;
+  height: 100%;
   display: flex;
+  flex-direction: column;
   align-items: center;
+  justify-content: space-around;
 }
 
 .Matchs {
@@ -310,7 +310,7 @@ header > ul > li > a:hover {
 .shop {
   width: 100%;
   height: 50vh;
-  background-color: #F2F2F2;
+  background-color: #f2f2f2;
 }
 
 footer {
@@ -321,7 +321,7 @@ footer {
 .footertop {
   height: 85%;
   width: 100%;
-  background-color: #2A2A2A;
+  background-color: #2a2a2a;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -375,10 +375,9 @@ footer {
   padding: 5px;
   outline: none;
   border: solid rgba(255, 255, 255, 0.521) 2px;
-  background-color: #2A2A2A;
+  background-color: #2a2a2a;
   color: white;
   font-size: 16px;
-
 }
 
 .footertop2 button {
@@ -402,7 +401,6 @@ footer {
 .footerbuttom {
   height: 15%;
   width: 100%;
-  background-color: #1A1A1A;
+  background-color: #1a1a1a;
   border-top: solid 1px white;
 }
-  
