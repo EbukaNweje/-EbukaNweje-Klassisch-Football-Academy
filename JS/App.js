@@ -8,6 +8,7 @@ menu.onclick = () => {
   closeMenu.style.display = 'block';
   menu.style.display = 'none';
   CloseDiv.style.display = 'flex';
+  CloseDiv.style.backgroundColor = 'white';
 };
 
 closeMenu.onclick = () => {

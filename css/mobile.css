@@ -32,14 +32,32 @@
     font-weight: 1000;
   }
 
-  .MenuBar {
+  header > article {
     display: flex;
+    width: 75%;
+    height: 100%;
+  }
+
+  .MenuBar {
+    height: 100%;
+    display: flex;
+    padding-left: 20px;
+    align-items: center;
+  }
+
+  .MenuBar2 {
+    width: 100%;
+    height: 100%;
+    padding-left: 20px;
+    align-items: center;
+    margin-left: -13px;
   }
 
   .fa-bars {
     display: flex;
     margin-right: 30px;
-    font-size: 50px;
+    font-size: 30px;
+    font-weight: 5;
     color: white;
     cursor: pointer;
   }
@@ -47,8 +65,8 @@
   .fa-times {
     display: none;
     margin-right: 30px;
-    font-size: 50px;
-    color: white;
+    font-size: 30px;
+    color: rgb(199, 1, 1);
     cursor: pointer;
   }
 
@@ -73,7 +91,7 @@
 
   .News1Card {
     height: 300px;
-    width: 45%;
+    width: 48%;
     margin-bottom: 10px;
     display: flex;
     flex-direction: column;
@@ -93,12 +111,10 @@
     height: 700px;
     width: 100%;
     flex-wrap: wrap;
-
-    /* background-color: red; */
   }
 
   .News2Card {
-    width: 45%;
+    width: 46%;
     height: 300px;
     margin-bottom: 30px;
     margin-top: 15px;
@@ -135,4 +151,10 @@
   .footertop2 button {
     width: 20%;
   }
+
+  .BigNews2 > h2 {
+    font-size: 30px;
+    line-height: 35px;
+  }
+
 }

@@ -89,6 +89,10 @@ header > ul > li > a:hover {
   text-underline-offset: 4px;
 }
 
+header > article {
+  display: none;
+}
+
 .MenuBar {
   display: none;
 }
@@ -173,7 +177,7 @@ header > ul > li > a:hover {
 }
 
 .fa-share {
-  font-size: 40px;
+  font-size: 30px;
   color: white;
   cursor: pointer;
 }
@@ -307,6 +311,65 @@ header > ul > li > a:hover {
   opacity: 1;
 }
 
+.BigNews {
+  height: 80vh;
+  width: 100%;
+  background:url(..//assets/image/271248954_650254979739236_8127864683998290938_n.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: flex-end;
+  padding: 30px;
+}
+
+.BigNews2 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.BigNews2 > h2 {
+  width: 80%;
+  font-size: 55px;
+  font-weight: 100;
+  line-height: 60px;
+  color: white;
+  margin: 20px 0;
+  text-transform: uppercase;
+  display: flex;
+  flex-direction: column;
+  border-top: solid 5px rgb(199, 1, 1);
+}
+
+.BigNews2 > article {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.BigNews2 > article > h3 {
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 100;
+  color: white;
+  border-right: 2px solid white;
+  height: 20px;
+  padding-right: 10px;
+}
+
+.BigNews > article > #sssss {
+  font-size: 5px;
+  color: white;
+  cursor: pointer;
+}
+
+.Trending {
+  width: 100%;
+  height: 50vh;
+  background-color: #f2f2f2;
+}
+
 .shop {
   width: 100%;
   height: 50vh;
@@ -403,4 +466,27 @@ footer {
   width: 100%;
   background-color: #1a1a1a;
   border-top: solid 1px white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.ButtomList {
+  width: 30%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.ButtomList > li > a {
+  font-size: 15px;
+  color: white;
+  text-decoration: underline;
+  opacity: 0.6;
+}
+
+.footerbuttom span {
+  font-size: 15px;
+  color: white;
+  opacity: 0.6;
 }
