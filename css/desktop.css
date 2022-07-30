@@ -387,14 +387,16 @@ header > article {
   padding: 0 20px;
 }
 
-.MatchrightArrow, .MatchleftArrow {
+.MatchrightArrow, 
+.MatchleftArrow {
   font-size: 40px;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-weight: 500;
   cursor: pointer;
 }
 
-.MatchrightArrow:hover, .MatchleftArrow:hover {
+.MatchrightArrow:hover, 
+.MatchleftArrow:hover {
   color: rgb(199, 1, 1);
 }
 
@@ -438,7 +440,8 @@ header > article {
   justify-content: space-between;
 }
 
-.ShoprightArrow, .ShopleftArrow {
+.ShoprightArrow, 
+.ShopleftArrow {
   font-size: 40px;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-weight: 500;
@@ -454,7 +457,8 @@ header > article {
   transition: all 350ms;
 }
 
-.ShoprightArrow:hover, .ShopleftArrow:hover {
+.ShoprightArrow:hover, 
+.ShopleftArrow:hover {
   transition: all 350ms;
   transform: scale(1.2);
   background-color: red;
@@ -527,7 +531,6 @@ header > article {
 .ShopNow:hover {
   transform: scale(1.04);
 }
-
 
 footer {
   width: 100%;
