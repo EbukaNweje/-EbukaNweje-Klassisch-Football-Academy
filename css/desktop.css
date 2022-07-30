@@ -387,8 +387,7 @@ header > article {
   padding: 0 20px;
 }
 
-.MatchrightArrow
-,
+.MatchrightArrow ,
 .MatchleftArrow {
   font-size: 40px;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -396,8 +395,7 @@ header > article {
   cursor: pointer;
 }
 
-.MatchrightArrow:hover
-,
+.MatchrightArrow:hover ,
 .MatchleftArrow:hover {
   color: rgb(199, 1, 1);
 }
@@ -442,8 +440,7 @@ header > article {
   justify-content: space-between;
 }
 
-.ShoprightArrow
-,
+.ShoprightArrow ,
 .ShopleftArrow {
   font-size: 40px;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -460,8 +457,7 @@ header > article {
   transition: all 350ms;
 }
 
-.ShoprightArrow:hover
-,
+.ShoprightArrow:hover ,
 .ShopleftArrow:hover {
   transition: all 350ms;
   transform: scale(1.2);
