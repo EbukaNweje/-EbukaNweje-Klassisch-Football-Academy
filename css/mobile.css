@@ -7,8 +7,6 @@
     width: 100%;
     height: 88vh;
     display: none;
-
-    /* justify-content: center; */
     flex-direction: column;
     position: absolute;
     top: 0;
@@ -77,22 +75,25 @@
 
   .NewsPage {
     width: 100%;
-    height: 1050px;
+    height: 1000px;
     display: flex;
     align-items: center;
-    justify-content: flex-start;
+    margin-bottom: 0;
   }
 
   .News1 {
-    height: 400px;
+    height: 35%;
     width: 100%;
     margin-bottom: 0;
+    margin-top: 0;
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
   }
 
   .News1Card {
     height: 300px;
     width: 48%;
-    margin-bottom: 10px;
     display: flex;
     flex-direction: column;
   }
@@ -108,20 +109,34 @@
   }
 
   .News2 {
-    height: 700px;
+    height: 65%;
     width: 100%;
     flex-wrap: wrap;
+    margin-bottom: 0;
   }
 
   .News2Card {
     width: 46%;
     height: 300px;
-    margin-bottom: 30px;
-    margin-top: 15px;
+    margin-bottom: 0;
+    margin-top: 0;
+  }
+
+  .gallary {
+    height: 60vh;
   }
 
   .gallary > article {
-    width: 100%;
+    width: 90%;
+    height: 80%;
+  }
+
+  .fixtureclub img {
+    width: 70%
+  }
+
+  .MatchCardFlow {
+    overflow-x: scroll;
   }
 
   .footertop1 {
