@@ -1,0 +1,127 @@
+.GallayContain {
+  width: 100%;
+  height: max-content;
+  background-color: #F2F2F2;
+  margin-top: 100px;
+  padding: 29px;
+}
+
+
+.Gallary1 {
+    width: 100%;
+    height: 250px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+    flex-wrap: wrap;
+  }
+  
+  .Gallary1Card {
+    width: 30%;
+    height: 100%;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    cursor: pointer;
+    transition: all 350ms;
+    transform: scale(1);
+    padding: 20px 10px;
+  }
+  
+  .Gallary1Card:hover {
+    transition: all 750ms;
+    transform: scale(1.03);
+    box-shadow: 1px 1px 5px 0 rgba(0, 0, 0, 0.616);
+    -webkit-box-shadow: 1px 1px 5px 0 rgba(0, 0, 0, 0.404);
+    -moz-box-shadow: 1px 1px 5px 0 rgba(0, 0, 0, 0.37);
+  }
+  
+  .Gallary1Cardphoto {
+    width: 100%;
+    height: 80%;
+    object-fit: cover;
+  }
+  
+  .Gallary1Cardphoto img {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .Gallary1Cardtext {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+    
+  .Gallary1Cardtext h2 {
+    color: rgb(199, 1, 1);
+    line-height: 35px;
+  }
+  
+  .Gallary2 {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .Gallary2Card {
+    width: 23%;
+    height: 100%;
+    background-color: white;
+    margin: 0 10px;
+    border-radius: 10px;
+    display: flex;
+    padding: 20px 10px;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+    transition: all 350ms;
+    transform: scale(1);
+  }
+  
+  .Gallary2Card:hover {
+    transition: all 750ms;
+    transform: scale(1.04);
+    box-shadow: 1px 1px 5px 0 rgba(0, 0, 0, 0.616);
+    -webkit-box-shadow: 1px 1px 5px 0 rgba(0, 0, 0, 0.404);
+    -moz-box-shadow: 1px 1px 5px 0 rgba(0, 0, 0, 0.37);
+  }
+  
+  .Gallary2Cardphoto {
+    width: 100%;
+    height: 80%;
+    object-fit: cover;
+  }
+  
+  .Gallary2Cardphoto img {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .Gallary2Cardtext {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .Gallary2Cardtext h2 {
+    font-size: 16px;
+    font-weight: 800;
+    color: rgb(199, 1, 1);
+    line-height: 20px;
+  }
+  
