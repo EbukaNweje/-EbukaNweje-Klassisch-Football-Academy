@@ -1,0 +1,101 @@
+.PageShop {
+  width: 100%;
+  height: max-content;
+  background-color: rgba(255, 0, 0, 0.247);
+  display: flex;
+
+  /* align-items: center; */
+  justify-content: center;
+  margin-top: 75px;
+}
+
+.MainShop {
+  width: 90%;
+  height: 100%;
+  background: #f2f2f2;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+.MainShopcard {
+  width: 250px;
+  height: 300px;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  padding: 8px;
+  border-radius: 10px;
+  transition: all 350ms;
+  transform: scale(1);
+  margin: 20px;
+}
+
+.MainShopcard:hover {
+  transition: all 350ms;
+  transform: scale(1.1);
+  box-shadow: 1px 1px 5px 0 rgba(0, 0, 0, 0.897);
+  -webkit-box-shadow: 1px 1px 5px 0 rgba(0, 0, 0, 0.404);
+  -moz-box-shadow: 1px 1px 5px 0 rgba(0, 0, 0, 0.37);
+}
+
+.Mainshopimg {
+  width: 100%;
+  height: 70%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.Mainshopimg img {
+  width: 100%;
+  height: 100%;
+}
+
+.MainShopcard h6 {
+  height: 10%;
+  width: 100%;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.MainShopNow {
+  width: 50%;
+  height: 18%;
+  background-color: red;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  cursor: pointer;
+  transition: all 350ms;
+  transform: scale(1);
+}
+
+.MainShopNow:hover {
+  transform: scale(1.04);
+}
+
+#ShopPop {
+  width: 100%;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.493);
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+
+.PopCard {
+  width: 80%;
+  height: 80%;
+  background-color: #f2f2f2;
+  margin-top: 80px;
+}

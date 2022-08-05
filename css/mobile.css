@@ -1,0 +1,245 @@
+@media (max-width: 991px) {
+  header {
+    position: fixed;
+  }
+
+  header > ul {
+    width: 100%;
+    height: 88vh;
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 0;
+    background: rgb(199, 1, 1);
+    margin-top: 75px;
+    padding: 0;
+  }
+
+  header > ul > li {
+    height: 15%;
+    width: 100%;
+    margin-left: 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 30px;
+  }
+
+  header > ul > li > a {
+    font-size: 20px;
+    font-weight: 1000;
+  }
+
+  header > article {
+    display: flex;
+    width: 75%;
+    height: 100%;
+  }
+
+  .MenuBar {
+    height: 100%;
+    display: flex;
+    padding-left: 20px;
+    align-items: center;
+  }
+
+  .MenuBar2 {
+    width: 100%;
+    height: 100%;
+    padding-left: 20px;
+    align-items: center;
+    margin-left: -13px;
+  }
+
+  .fa-bars {
+    display: flex;
+    margin-right: 30px;
+    font-size: 30px;
+    font-weight: 5;
+    color: white;
+    cursor: pointer;
+  }
+
+  .fa-times {
+    display: none;
+    margin-right: 30px;
+    font-size: 30px;
+    color: rgb(199, 1, 1);
+    cursor: pointer;
+  }
+
+  .HomeCover2 > h2 {
+    font-size: 30px;
+    line-height: 35px;
+  }
+
+  .NewsPage {
+    width: 100%;
+    height: 1000px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 0;
+  }
+
+  .News1 {
+    height: 35%;
+    width: 100%;
+    margin-bottom: 0;
+    margin-top: 0;
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+  }
+
+  .News1Card {
+    height: 300px;
+    width: 48%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .Cardphoto {
+    width: 100%;
+    height: 50%;
+  }
+
+  .Cardtext {
+    width: 100%;
+    height: 50%;
+    padding: 5px;
+  }
+
+  .CardText1 h2 {
+    font-size: 18px;
+    line-height: 18px;
+    font-weight: bold;
+  }
+
+  .CardText1 span {
+    font-size: 13px;
+    line-height: 14px;
+    margin-top: 10px;
+    font-weight: bold;
+  }
+
+  .CardText2 h2 {
+    font-size: 16px;
+    line-height: 15px;
+  }
+
+  .CardText2 span {
+    font-size: 12px;
+    line-height: 14px;
+  }
+
+  .News2 {
+    height: 65%;
+    width: 100%;
+    flex-wrap: wrap;
+    margin-bottom: 0;
+  }
+
+  .News2Card {
+    width: 44%;
+    height: 300px;
+    margin-bottom: 0;
+    margin-top: 0;
+  }
+
+  .News2Cardphoto {
+    height: 50%;
+    width: 100%;
+  }
+
+  .News2Cardtext {
+    width: 100%;
+    height: 50%;
+    padding: 5px;
+  }
+
+  .News2CardText1 h2 {
+    font-size: 18px;
+    line-height: 18px;
+    font-weight: bold;
+  }
+
+  .News2CardText1 span {
+    font-size: 13px;
+    line-height: 14px;
+    margin-top: 10px;
+    font-weight: bold;
+  }
+
+  .News2CardText2 h2 {
+    font-size: 16px;
+    line-height: 15px;
+  }
+
+  .News2CardText2 span {
+    font-size: 12px;
+    line-height: 14px;
+  }
+
+  .gallary {
+    height: 60vh;
+  }
+
+  .gallary > article {
+    width: 90%;
+    height: 80%;
+  }
+
+  .fixtureclub img {
+    width: 70%;
+  }
+
+  .MatchCardFlow {
+    overflow-x: hidden;
+  }
+
+  .footertop1 {
+    width: 50%;
+    height: 50%;
+  }
+
+  .footertop > article {
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .footcircle {
+    height: 40px;
+    width: 40px;
+  }
+
+  .footertop2 {
+    height: 50%;
+    width: 80%;
+
+    /* padding: 10px; */
+  }
+
+  .footertop2 button {
+    width: 20%;
+  }
+
+  .footerbuttom {
+    width: 100%;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .ButtomList {
+    width: 80%;
+    margin-bottom: 20px;
+  }
+
+  .BigNews2 > h2 {
+    font-size: 30px;
+    line-height: 35px;
+  }
+}
