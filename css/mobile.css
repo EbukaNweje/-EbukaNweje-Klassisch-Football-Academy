@@ -149,7 +149,7 @@
   .News2Cardphoto {
     height: 50%;
     width: 100%;
-  } 
+  }
 
   .News2Cardtext {
     width: 100%;
@@ -190,11 +190,11 @@
   }
 
   .fixtureclub img {
-    width: 70%
+    width: 70%;
   }
 
   .MatchCardFlow {
-    overflow-x: scroll;
+    overflow-x: hidden;
   }
 
   .footertop1 {
@@ -218,6 +218,7 @@
   .footertop2 {
     height: 50%;
     width: 80%;
+
     /* padding: 10px; */
   }
 

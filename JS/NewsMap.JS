@@ -24,7 +24,7 @@ News1.forEach((element) => {
             </div>
             <div class="CardText2">
                 <h2> News </h2>
-                <span>Share</span>
+                <span><i class="fa fa-share-alt" aria-hidden="true"></i></span>
             </div>
         </div>
     </div>

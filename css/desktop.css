@@ -91,6 +91,13 @@ header > ul > li > a {
   opacity: 0.6;
 }
 
+.MATCHESALL2 h4 a {
+  font-size: 18px;
+  color: black;
+  text-decoration: underline red 2px;
+  text-underline-offset: 4px;
+}
+
 header > ul > li > a:hover {
   transform: scale(1.15);
   text-decoration: underline solid 2px;
@@ -169,6 +176,24 @@ header > article {
   opacity: 0.6;
 }
 
+.CardText1 span {
+  line-height: 25px;
+}
+
+.News2CardText1 span {
+  font-size: 13px;
+  line-height: 20px;
+}
+
+.Nextfixture span {
+  width: 20%;
+  height: 100%;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
 .HomeCover2 > h2 > span {
   width: 100%;
   border-top: solid rgb(199, 1, 1) 2px;
@@ -178,6 +203,11 @@ header > article {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.MATCHESALL2 h3 {
+  font-size: 20px;
+  color: rgb(199, 1, 1);
 }
 
 .HomeCover2 > article > h3 {
@@ -271,10 +301,6 @@ header > article {
   line-height: 35px;
 }
 
-.CardText1 span {
-  line-height: 25px;
-}
-
 .CardText2 {
   width: 100%;
   height: 40%;
@@ -349,11 +375,6 @@ header > article {
   font-weight: 800;
   color: rgb(199, 1, 1);
   line-height: 20px;
-}
-
-.News2CardText1 span {
-  font-size: 13px;
-  line-height: 20pxpx;
 }
 
 .News2CardText2 {
@@ -446,18 +467,6 @@ header > article {
   align-items: center;
 }
 
-.MATCHESALL2 h3 {
-  font-size: 20px;
-  color: rgb(199, 1, 1);
-}
-
-.MATCHESALL2 h4 a {
-  font-size: 18px;
-  color: black;
-  text-decoration: underline red 2px;
-  text-underline-offset: 4px;
-}
-
 .NextFixtureCard {
   width: 100%;
   height: 85%;
@@ -466,7 +475,7 @@ header > article {
   justify-content: space-between;
 }
 
-.MatchrightArrow, 
+.MatchrightArrow,
 .MatchleftArrow {
   width: 3%;
   display: flex;
@@ -484,7 +493,7 @@ header > article {
   transition: all 350ms;
 }
 
-.MatchrightArrow:hover, 
+.MatchrightArrow:hover,
 .MatchleftArrow:hover {
   background-color: rgb(199, 1, 1);
   color: white;
@@ -498,7 +507,7 @@ header > article {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  overflow-x: scroll;
+  overflow: hidden;
 }
 
 .MatchCardFlow2 {
@@ -507,7 +516,7 @@ header > article {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  overflow-x: scroll;
+  overflow:hidden;
 }
 
 .cardMATCHESALL {
@@ -522,6 +531,7 @@ header > article {
   transform: scale(1);
   cursor: pointer;
   margin: 0 10px;
+
   /* float: left; */
 }
 
@@ -543,6 +553,29 @@ header > article {
   flex-direction: column;
 }
 
+.NextFixtureCard h2 {
+  margin-top: 5px;
+  font-size: 18px;
+}
+
+.BigNews2 > h2 {
+  width: 80%;
+  font-size: 55px;
+  font-weight: 100;
+  line-height: 60px;
+  color: white;
+  margin: 20px 0;
+  text-transform: uppercase;
+  display: flex;
+  flex-direction: column;
+  border-top: solid 5px rgb(199, 1, 1);
+}
+
+.shop h2 {
+  color: white;
+  font-size: 30px;
+}
+
 .cardMATCHESALL > article > h2 {
   font-size: 18px;
   margin-bottom: -20px;
@@ -558,6 +591,7 @@ header > article {
   height: 30%;
   width: 100%;
   display: flex;
+
   /* justify-content: space-around; */
   align-items: center;
 }
@@ -576,39 +610,6 @@ header > article {
   width: 80%;
 }
 
-.NextFixtureCard h2 {
-  margin-top: 5px;
-  font-size: 18px;
-}
-
-.Nextfixture span {
-  width: 20%;
-  height: 100%;
-  /* background-color: black; */
-  color: black;
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-}
-
-.Matchs {
-  width: 150px;
-  height: 40px;
-  background-color: rgb(199, 1, 1);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: white;
-  border-radius: 20px;
-  opacity: 0.9;
-  cursor: pointer;
-}
-
-.Matchs:hover {
-  transition: all 350ms;
-  opacity: 1;
-}
-
 .BigNews {
   height: 80vh;
   width: 100%;
@@ -625,19 +626,6 @@ header > article {
   width: 100%;
   display: flex;
   flex-direction: column;
-}
-
-.BigNews2 > h2 {
-  width: 80%;
-  font-size: 55px;
-  font-weight: 100;
-  line-height: 60px;
-  color: white;
-  margin: 20px 0;
-  text-transform: uppercase;
-  display: flex;
-  flex-direction: column;
-  border-top: solid 5px rgb(199, 1, 1);
 }
 
 .BigNews2 > article {
@@ -675,11 +663,6 @@ header > article {
   background-position: center;
 }
 
-.shop h2 {
-  color: white;
-  font-size: 30px;
-}
-
 .shopdiv {
   width: 95%;
   height: 85%;
@@ -688,7 +671,7 @@ header > article {
   justify-content: space-between;
 }
 
-.ShoprightArrow, 
+.ShoprightArrow,
 .ShopleftArrow {
   font-size: 40px;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -706,7 +689,7 @@ header > article {
   transition: all 350ms;
 }
 
-.ShoprightArrow:hover, 
+.ShoprightArrow:hover,
 .ShopleftArrow:hover {
   transition: all 350ms;
   transform: scale(1.2);
@@ -720,7 +703,7 @@ header > article {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  overflow-x: scroll;
+  overflow: hidden;
 }
 
 .cardShop {
