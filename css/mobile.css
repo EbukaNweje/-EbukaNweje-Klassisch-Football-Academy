@@ -75,7 +75,7 @@
 
   .NewsPage {
     width: 100%;
-    height: 1000px;
+    height: 1200px;
     display: flex;
     align-items: center;
     margin-bottom: 0;
@@ -92,10 +92,11 @@
   }
 
   .News1Card {
-    height: 300px;
+    height: 350px;
     width: 48%;
     display: flex;
     flex-direction: column;
+    padding: 10px;
   }
 
   .Cardphoto {
@@ -116,7 +117,7 @@
   }
 
   .CardText1 span {
-    font-size: 13px;
+    font-size: 11px;
     line-height: 14px;
     margin-top: 10px;
     font-weight: bold;
@@ -141,9 +142,10 @@
 
   .News2Card {
     width: 44%;
-    height: 300px;
+    height: 350px;
     margin-bottom: 0;
     margin-top: 0;
+    padding: 10px;
   }
 
   .News2Cardphoto {
@@ -164,7 +166,8 @@
   }
 
   .News2CardText1 span {
-    font-size: 13px;
+    width: 100%;
+    font-size: 11px;
     line-height: 14px;
     margin-top: 10px;
     font-weight: bold;
